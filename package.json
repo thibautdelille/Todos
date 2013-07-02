@@ -1,0 +1,13 @@
+{
+  "author": "Thibaut Delille",
+  "name": "Todos",
+  "version": "0.0.1",
+  "homepage": "http://www.jvst.us/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thibautdelille/Todos.git"
+  },
+  "devDependencies": {
+    "requirejs" : ">= 2.1.0"
+  }
+}
