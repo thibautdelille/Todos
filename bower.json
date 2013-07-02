@@ -1,0 +1,19 @@
+{
+  "name": "thibautdelille",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  	"requirejs":"https://raw.github.com/jrburke/requirejs/master/require.js",
+    "jquery": "http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js",
+    "underscore": "http://underscorejs.org/underscore-min.js",
+    "backbone":"http://backbonejs.org/backbone-min.js",
+   	"backbone.localStorage":"https://raw.github.com/jeromegn/Backbone.localStorage/master/backbone.localStorage-min.js"
+  }
+}

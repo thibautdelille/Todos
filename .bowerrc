@@ -1,0 +1,9 @@
+{
+  "directory": "js/components",
+  "endpoint": "https://www.jvst.us",
+  "json": "bower.json",
+  "searchpath": [
+    "https://bower.herokuapp.com"
+  ],
+  "shorthand_resolver": "https://github.com/thibautdelille/Todos.git"
+}

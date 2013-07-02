@@ -1,10 +1,10 @@
 require.config({
-  baseUrl: "",
+  baseUrl: "/js/",
   paths: {
-    jquery: 'node_modules/jquery/temp/jquery',
-    underscore: 'node_modules/underscore/underscore-min',
-    backbone: 'node_modules/backbone/backbone.min',
-    'backbone.localStorage': 'lib/backbone.localStorage'
+    jquery: 'components/jquery/index',
+    underscore: 'components/underscore/index',
+    backbone: 'components/backbone/index',
+    'backbone.localStorage': 'components/backbone.localStorage/index'
   },
   shim: {
     underscore: {
@@ -21,12 +21,14 @@ require.config({
   }
 });
 
-require([
+require(
+  [
     'jquery',
     'backbone',
     'models/Todo',
     'views/MasterView'
-  ], function($, Backbone, Todo, MasterView) {
+  ], 
+  function($, Backbone, Todo, MasterView) {
  
   var Router = Backbone.Router.extend({
     routes: {
@@ -41,4 +43,5 @@ require([
         }
       });
     }
-  });
+  })
+});
