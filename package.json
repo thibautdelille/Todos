@@ -8,6 +8,9 @@
     "url": "https://github.com/thibautdelille/Todos.git"
   },
   "devDependencies": {
-    "requirejs" : ">= 2.1.0"
+    "requirejs" : ">= 2.1.0",
+    "backbone" : ">= 1.0.0",
+    "underscore" : ">= 1.4.4",
+    "jquery" : ">= 1.8.3"
   }
 }
