@@ -1,9 +1,9 @@
 require.config({
-  baseUrl: "/js/",
+  baseUrl: "",
   paths: {
-    jquery: 'node_module/jquery/temp/jquery',
-    underscore: 'node_module/underscore/underscore-min',
-    backbone: 'node_module/backbone/backbone.min',
+    jquery: 'node_modules/jquery/temp/jquery',
+    underscore: 'node_modules/underscore/underscore-min',
+    backbone: 'node_modules/backbone/backbone.min',
     'backbone.localStorage': 'lib/backbone.localStorage'
   },
   shim: {
